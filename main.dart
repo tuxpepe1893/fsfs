@@ -14,7 +14,7 @@ class XylophoneApp extends StatelessWidget {
 
 
   }
-Expanded BuldingKey({Color color}){
+Expanded BuildingKey({Color color}){ //Mistypo nick, it was BuldingKey
   return Expanded(
     child: Container(color:Colors.red,
       child: TextButton(style: ButtonStyle(backgroundColor: MaterialStateProperty.all(color)),
